@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-variable "terrateam-bucket081" {
+variable "terrateam-bucket01" {
   type    = string
 <<<<<<< HEAD
   default = "terrateam-dev-bucket-trial3"
