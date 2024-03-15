@@ -1,13 +1,5 @@
 ##########################################################################
 ##########################################################################
-policy:
-  Version: "2012-10-17"
-  Statement:
-    - Effect: "Allow"
-      Action:
-        - "sts:AssumeRoleWithWebIdentity"
-      Resource: "arn:aws:iam::654654366125:role/terrateam-dev"
-
 hooks:
   all:
     pre:
